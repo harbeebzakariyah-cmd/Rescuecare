@@ -1,0 +1,27 @@
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+.next/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local database files
+server/*.db
+server/*.db-wal
+server/*.db-shm
+
+# Operating system files
+.DS_Store
+Thumbs.db
